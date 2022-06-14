@@ -71,14 +71,8 @@ class tickets:
             return  10
 
         else:
-            if self.book_row >= (no_of_rows / 2):
-                current_income = 8
-
-                return  8
-            else:
-                current_income = 10
-
-                return 10
+            current_income = 10
+            return 10
 
 class statistics:
     def stats(self,total_seats_booked,total_seats,c,total_income):
